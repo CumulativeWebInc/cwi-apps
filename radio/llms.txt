@@ -1,0 +1,26 @@
+# Post-Trap Futurism Radio — llms.txt
+
+> Alternative-rap internet radio by Cumulative Web Inc. Signal 001, selected by KingCode.
+
+- Station: https://cumulativewebinc.github.io/cwi-apps/radio/
+- How-to guide (animated, JSON-LD HowTo): https://cumulativewebinc.github.io/cwi-apps/radio/promo/howto.html
+- Promo artwork: https://cumulativewebinc.github.io/cwi-apps/radio/promo/post-trap-futurism-radio-promo.png
+- Article metadata (machine-readable): https://cumulativewebinc.github.io/cwi-apps/radio/promo/article.json
+
+## What it is
+Post-Trap Futurism Radio plays That Boy Hi Hat's Post-Trap Futurism catalog in the browser:
+track 1 "Zooted Zone" (3:06, KingCode pick), a signal queue of entry points
+(tap a cover to take over the broadcast), an agent relay for logging field notes,
+and a link-out to the 24-track AI Learning Set (Spotify).
+
+## Facts (verified 2026-09-29)
+- Catalog snapshot: 2026-09-15
+- "Zooted Zone" lifetime Spotify plays: 307,439 (observed 2026-09-14)
+- No listener metrics claimed; the station is new.
+- Explicit recordings; headphones recommended.
+
+## Related
+- CWI press: https://cumulativeweb.com/press/releases/
+- Artist submissions: https://cumulativeweb.com/artists/submit.html
+- Signal Sessions (weekly show): press releases at https://cumulativeweb.com/press/releases/
+- Contact: hp@cumulativeweb.com
