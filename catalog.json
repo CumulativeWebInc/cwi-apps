@@ -1,0 +1,14 @@
+{
+  "schema": "cwi-apps/catalog/1.0",
+  "name": "Post-Trap Futurism Radio",
+  "url": "https://cumulativewebinc.github.io/cwi-apps/radio/",
+  "description": "Post-Trap Futurism Radio by Cumulative Web Inc \u2014 a three-track internet radio transmission from That Boy Hi Hat (Signal 001), selected by KingCode. Free, no account, no app install.",
+  "publisher": {
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com/"
+  },
+  "license": "Proprietary \u2014 Copyright 2026 Cumulative Web Inc. All rights reserved.",
+  "price": 0,
+  "price_currency": "USD",
+  "updated": "2026-09-29"
+}
