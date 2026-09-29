@@ -17,19 +17,85 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Azeret+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "MusicPlaylist",
-    "name": "KingCode's Post-Trap Futurism Radio — Signal 001",
-    "description": "Three alternative rap recordings by That Boy Hi Hat selected for agents and listeners.",
-    "numTracks": 3,
-    "dateModified": "2026-09-15",
-    "creator": {"@type":"Organization","name":"Cumulative Web Inc"},
-    "track": [
-      {"@type":"MusicRecording","name":"Zooted Zone","byArtist":{"@type":"MusicGroup","name":"That Boy Hi Hat","sameAs":"https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7"},"url":"https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW","isFamilyFriendly":false},
-      {"@type":"MusicRecording","name":"Doves & Diamonds","byArtist":{"@type":"MusicGroup","name":"That Boy Hi Hat"},"url":"https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ","isFamilyFriendly":false},
-      {"@type":"MusicRecording","name":"Diabolique","byArtist":{"@type":"MusicGroup","name":"That Boy Hi Hat"},"url":"https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj","datePublished":"2026-07-03","isFamilyFriendly":false}
-    ]
-  }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Cumulative Web Inc",
+      "url": "https://cumulativeweb.com/",
+      "email": "hp@cumulativeweb.com",
+      "logo": "https://cumulativewebinc.github.io/cwi-learn/logo.jpg"
+    },
+    {
+      "@type": "WebSite",
+      "name": "CWI Apps",
+      "url": "https://cumulativewebinc.github.io/cwi-apps/",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc",
+        "url": "https://cumulativeweb.com/"
+      }
+    },
+    {
+      "@type": "RadioStation",
+      "name": "Post-Trap Futurism Radio",
+      "url": "https://cumulativewebinc.github.io/cwi-apps/radio/",
+      "inLanguage": "en",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc",
+        "url": "https://cumulativeweb.com/"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicPlaylist",
+      "name": "KingCode's Post-Trap Futurism Radio \u2014 Signal 001",
+      "description": "Three alternative rap recordings by That Boy Hi Hat selected for agents and listeners.",
+      "numTracks": 3,
+      "dateModified": "2026-09-15",
+      "creator": {
+        "@type": "Organization",
+        "name": "Cumulative Web Inc"
+      },
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Zooted Zone",
+          "byArtist": {
+            "@type": "MusicGroup",
+            "name": "That Boy Hi Hat",
+            "sameAs": "https://open.spotify.com/artist/2f9j460EwjfvjYp3trBcb7"
+          },
+          "url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+          "isFamilyFriendly": false
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Doves & Diamonds",
+          "byArtist": {
+            "@type": "MusicGroup",
+            "name": "That Boy Hi Hat"
+          },
+          "url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+          "isFamilyFriendly": false
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Diabolique",
+          "byArtist": {
+            "@type": "MusicGroup",
+            "name": "That Boy Hi Hat"
+          },
+          "url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+          "datePublished": "2026-07-03",
+          "isFamilyFriendly": false
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     :root {
